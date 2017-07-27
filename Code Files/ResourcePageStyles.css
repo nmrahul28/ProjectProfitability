@@ -1,0 +1,27 @@
+table ,th, td {
+    border: 1px solid #DDD;
+    border-collapse: collapse;
+    text-align: center;
+}    
+th, td{
+    padding: 5px;
+    margin: 0px;
+}  
+table{
+    width:100%;
+    border:2px solid black;
+}
+
+.btnButton
+{
+    color: #FF0000;
+    background: #D5D5D5;
+    font-weight: bold;
+    border: 1px solid #D5D5D5;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btnButton:hover {
+    color: #FFF;
+    background: #FF0000;
+}
